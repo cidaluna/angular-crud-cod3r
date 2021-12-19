@@ -10,6 +10,9 @@ import { Product } from './product.model';
 })
 export class ProductService {
 
+  // classe service é responsavel pela comunicacao http com o Backend
+  // nesse projeto o Backend é o arquivo db.json e precisa ser rodado separado com npm start
+
   baseUrl = "http://localhost:3001/products";
 
   constructor(private snackBar: MatSnackBar,
@@ -27,5 +30,10 @@ export class ProductService {
   create(product: Product): Observable<Product>{
     return this.http.post<Product>(this.baseUrl,product);
   }
+
+  read(): Observable<Product[]>{
+    return this.http.get<Product[]>(this.baseUrl);
+  }
+
 
 }

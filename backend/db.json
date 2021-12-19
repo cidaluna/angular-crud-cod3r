@@ -17,23 +17,38 @@
     },
     {
       "name": "Produto teste",
-      "price": 125.98,
-      "id": 4
-    },
-    {
-      "name": "Produto teste",
-      "price": 125.98,
-      "id": 5
-    },
-    {
-      "name": "Produto teste",
-      "price": 125.98,
-      "id": 6
-    },
-    {
-      "name": "Produto teste",
       "price": 100.99,
       "id": 7
+    },
+    {
+      "name": "Produto teste",
+      "price": "100.00",
+      "id": 8
+    },
+    {
+      "name": "Veio do formulario",
+      "price": "1.99",
+      "id": 9
+    },
+    {
+      "name": "teste form",
+      "price": "29.90",
+      "id": 10
+    },
+    {
+      "name": "Geladeira",
+      "price": "1980.44",
+      "id": 11
+    },
+    {
+      "name": "Teste Novo produto",
+      "price": "12222.99",
+      "id": 12
+    },
+    {
+      "name": "Caderno Tilibra",
+      "price": "35.00",
+      "id": 13
     }
   ]
 }

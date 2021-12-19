@@ -11,8 +11,8 @@ import { Product } from '../product.model';
 export class ProductCreateComponent implements OnInit {
 
   product: Product = {
-    name: 'Produto teste',
-    price: 100.99
+    name: '',
+    price: null
   }
   
   constructor(private productService: ProductService,
@@ -24,7 +24,7 @@ export class ProductCreateComponent implements OnInit {
 
   // este metodo create faz uma chamada para o service e recebe como resposta um Observable de product 
   // então, chama o metodo Subscribe que notifica quando essa resposta chegar
-  // exibe a msg de produto criado e utiliza as rotas de navegação (opcional)) para ir para tela de produto
+  // exibe a msg de produto criado e utiliza as rotas de navegação (opcional) para ir para tela de produto
   createProduct(): void{
     this.productService.create(this.product).subscribe(() => {
       this.productService.showMessage('Produto criado!')
@@ -35,7 +35,5 @@ export class ProductCreateComponent implements OnInit {
   cancelProduct(): void{
     this.router.navigate(['/products']);
   }
-
- 
 
 }
