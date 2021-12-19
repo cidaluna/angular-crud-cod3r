@@ -1,19 +1,39 @@
 {
-    "products":[
-        {
-        "id": 1,
-        "name": "Caneta BIC Preta",
-        "price": 5.89
-        },
-        {
-        "id": 1,
-        "name": "Caneta BIC Azul",
-        "price": 7.99
-        },
-        {
-        "id": 1,
-        "name": "Caneta BIC Vermelha",
-        "price": 4.50
-        }
-    ]
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta BIC Preta",
+      "price": 5.89
+    },
+    {
+      "id": 2,
+      "name": "Caneta BIC Azul",
+      "price": 7.99
+    },
+    {
+      "id": 3,
+      "name": "Caneta BIC Vermelha",
+      "price": 4.5
+    },
+    {
+      "name": "Produto teste",
+      "price": 125.98,
+      "id": 4
+    },
+    {
+      "name": "Produto teste",
+      "price": 125.98,
+      "id": 5
+    },
+    {
+      "name": "Produto teste",
+      "price": 125.98,
+      "id": 6
+    },
+    {
+      "name": "Produto teste",
+      "price": 100.99,
+      "id": 7
+    }
+  ]
 }
