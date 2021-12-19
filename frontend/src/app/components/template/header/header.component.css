@@ -12,13 +12,14 @@
 
 .logo{
     float: left;
-    max-height: 15rem;
+    max-height: 8rem;
+    max-width: 60%;
 }
 
 .title-group{
-    padding-left: 5rem;
+    padding-left: 3rem;
 }
 
 .title-group i{
-    padding-left: 5rem;
+    padding-right: 1rem;
 }
