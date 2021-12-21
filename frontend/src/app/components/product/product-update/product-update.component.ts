@@ -10,20 +10,20 @@ import { ProductService } from '../product.service';
 })
 export class ProductUpdateComponent implements OnInit {
 
-  product: Product = {
+  public product: Product = {
     name: '',
-    price: null
+    price: 0
   }
   
   constructor(private productService: ProductService,
     private router: Router,
     private route: ActivatedRoute) { }
 
-  // Ao inicializar este componente ele já ira preencher o formulario com o dado do produto especificado.
+  // Ao inicializar este componente ele já ira preencher o formulario com o dado do produto especifico.
   ngOnInit(): void {
-    const id = this.route.snapshot.paramMap.get('id');
-    this.productService.readById('id').subscribe(product => {
-      this.product = product
+    const id = this.route.snapshot.paramMap.get("id");
+    this.productService.readById('id').subscribe((product) => {
+      this.product = product;
     });
   }
 
