@@ -2,3 +2,13 @@ table{
     width: 100%;
     
 }
+
+.edit > i{
+    color:cadetblue;
+    padding-right: 5px;
+}
+
+.delete > i{
+    color: red;
+    padding-left: 10px;
+}

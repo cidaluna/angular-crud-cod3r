@@ -16,26 +16,6 @@
       "price": 4.5
     },
     {
-      "name": "Produto teste",
-      "price": 100.99,
-      "id": 7
-    },
-    {
-      "name": "Produto teste",
-      "price": "100.00",
-      "id": 8
-    },
-    {
-      "name": "Veio do formulario",
-      "price": "1.99",
-      "id": 9
-    },
-    {
-      "name": "teste form",
-      "price": "29.90",
-      "id": 10
-    },
-    {
       "name": "Geladeira",
       "price": "1980.44",
       "id": 11
@@ -59,6 +39,16 @@
       "name": "Lapis",
       "price": "3",
       "id": 15
+    },
+    {
+      "name": "Caneta",
+      "price": "10.00",
+      "id": 16
+    },
+    {
+      "name": "",
+      "price": null,
+      "id": 17
     }
   ]
 }
