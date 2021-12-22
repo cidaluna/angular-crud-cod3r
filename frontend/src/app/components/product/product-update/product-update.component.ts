@@ -20,6 +20,7 @@ export class ProductUpdateComponent implements OnInit {
     private route: ActivatedRoute) { }
 
   // Ao inicializar este componente ele já ira preencher o formulario com o dado do produto especifico.
+  // Nao esta trazendo os dados no formulario de alteracao, verificar o metodo update e depois fazer metodo delete.
   ngOnInit(): void {
     const id = this.route.snapshot.paramMap.get("id");
     this.productService.readById('id').subscribe((product) => {
